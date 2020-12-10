@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Georgia;
+}
+.contenedorTodo
+{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(4, 8, 253);;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  
+}
+
+.contenedorListado{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(0, 139, 163);
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 50px;
+
+ 
+}
+
+.contenedor {
+    width: 90%;
+    background-color: rgb(128, 255, 170);
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.divLista{
+    width: 30%;
+    text-align: center;
+  
+}
+.pokemon{
+    width: 70%;
+}
+.contenedorHeader{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(0, 91, 134);
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 50px;
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+}
+.icoFlecha{
+    width: 70px;
+}
+.cards{
+    width: 200px;
+    padding: 15px;
+    background-color: rgb(9, 11, 134);
+    border-radius: 20px;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.formatoPic
+{
+    height: 150px;
+    border-radius: 10px;
+}
+.contenedorTextos{
+    width: 95%;
+    margin-top: 15px;
+}
+
+.txtLabel{
+    font-weight: 300;
+    margin: 0%;
+    color: white;
+}
+
+.txtTexto{
+    font-weight: 500;
+    margin: 0%;
+    color: white;
+}
+
+#btn{
+    color: rgb(0, 0, 0);
+    background-color: rgb(173, 215, 255);
+    width: 150px;
+    padding: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
